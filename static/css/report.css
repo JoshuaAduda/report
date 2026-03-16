@@ -1,0 +1,122 @@
+:root{
+    --primary-color: rgb(112, 12, 12);
+  --secondary-color: rgb(29, 233, 29);
+  --auxilliary-color:white;
+  --padding-horizontal:100px;
+}
+html, body, h1, h3, p{
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+#contactsection{
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
+  height: 60vh;
+  margin-top: 100px;
+}
+#contactsection>form{
+  padding: 24px;
+  width: 60vw;
+  margin: auto;
+  background-color:rgba(243, 240, 235, 0.76) ;
+  border-radius: 30px;
+}
+#contactsection>form>h1{
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contactsection>form>div>div{
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#contactsection>form>.userMessage{
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#contactsection>form>.userNamePhone,.userAgeBirthday{
+  display: flex;
+}
+#contactsection>form>.userNamePhone,.userAgeBirthday>div>label{
+  font-weight: 500px;
+  color: black;
+}
+#contactsection>form> .userNamePhone>div>input{
+  all: unset;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 8px;
+  height: 30px;
+  width:25vw;
+  font-size: 14px;
+  background-color:white;
+  color:black;
+}
+#contactsection>form> .userAgeBirthday>div>input{
+  all: unset;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 8px;
+  height: 30px;
+  width:25vw;
+  font-size: 14px;
+  background-color:white;
+  color:black;
+}
+#contactsection>form>div>textarea{
+  all: unset;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  background-color:white;
+  color: black;
+}
+#contactsection>form>button{
+    all: unset;
+    background-color: var(--primary-color);
+    color:var(--auxilliary-color);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    transition: 1s;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactsection>form>button:hover{
+    background-color: var(--secondary-color);
+    color:var(--auxilliary-color);
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    transition: 1s;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}

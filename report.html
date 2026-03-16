@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/report.css">
+</head>
+
+<body>
+    <!-- contact section -->
+    <section id="contactsection">
+        <!-- contact form -->
+        <form>
+            <h1>REPORT FORM ON WASTE AND POLLUTION</h1>
+            <hr />
+            <br />
+            <div class="userNamePhone">
+                <!-- username input -->
+                <div>
+                    <label for="userName">Name:</label><br />
+                    <input type="text" name="userName" placeholder="eg.Joe Doek" />
+                </div>
+                <!-- userphone number -->
+                <div>
+                    <label for="userPhone">Phone Number:</label><br />
+                    <input type="number" name="userPhone" placeholder="eg.+254712345678/+254123456789" />
+                </div>
+            </div>
+            <div class="userAgeBirthday">
+                <!-- user age -->
+                <div>
+                    <label for="userAge">Age:</label><br />
+                    <input type="number" placeholder="0" name="userAge" min="0" max="150" required />
+                </div>
+                <!-- user birthday -->
+                <div>
+                    <label for="userDOB">Your Birthday:</label><br />
+                    <input type="date" name="userDOB" />
+                </div>
+            </div>
+
+            <!-- user message -->
+            <div class="userMessage">
+                <label for="userMessage">Messsage:</label><br />
+                <textarea name="userMessage" placeholder="enter your message"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
